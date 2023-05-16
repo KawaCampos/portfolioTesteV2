@@ -3,12 +3,13 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
+
 .container {
     width: 100%;
-    /* min-height: 100vh; */
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -57,6 +58,10 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #74a0ff;
+}
+
+.dev {
+    color: #3d5faa;
 }
 
 .row {
@@ -139,11 +144,11 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-width: 700px) {
-
+    
     body{
-        position: fixed;
-        overflow-x: hidden;
+    
     }
+
     .nav ul {
         width: 100%;
         background: linear-gradient(#4d72c2, #687ead);
@@ -165,6 +170,7 @@ nav ul li a:hover {
 
     .menu-icon {
         display: block;
+
     }
 
     #menuList {
@@ -184,10 +190,6 @@ nav ul li a:hover {
 
     .col-2 .perfil {
         width: 77%;
-    }
-
-    .color-box {
-        transform: translateX(75px);
     }
 
     .col-1 {
